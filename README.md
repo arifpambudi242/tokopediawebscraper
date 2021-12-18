@@ -10,7 +10,14 @@ install the required package:
 pip install -r requirements.txt
 ```
 
-run Main.py
+change products to be scraped on
+
+```python
+scraper = TokopediaScraper("https://www.tokopedia.com/p/handphone-tablet/handphone?od=5")
+scraper.doScraping(100)
+```
+
+run tokopediaWebscraper.py
 
 ```python
 python tokopediaWebscraper.py
